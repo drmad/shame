@@ -1,0 +1,22 @@
+body {
+	font-family: sans-serif;
+	background: #eee;
+}
+main {
+	width: 800px;
+	margin: 0px auto;
+	padding: 10px;
+	background: white;
+	text-align: center;
+	color: #444;
+	border-radius: 3px;
+}
+
+pre {
+	text-align: left;
+}
+media (max-width: 800px) {
+	main {
+		width: 100%;
+	}
+}
