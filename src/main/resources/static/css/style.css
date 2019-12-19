@@ -15,8 +15,14 @@ main {
 pre {
 	text-align: left;
 }
-media (max-width: 800px) {
+
+@media (max-width: 800px) {
 	main {
+		width: 100%;
+		margin: 0px;
+		box-sizing: border-box;
+	}
+	main img {
 		width: 100%;
 	}
 }
