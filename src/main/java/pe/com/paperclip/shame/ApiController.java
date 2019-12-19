@@ -62,7 +62,7 @@ public class ApiController {
 		return response;
 	}
 	
-	@PostMapping("contacts")
+	@PostMapping("contact")
 	public ActionResponse createContact(@RequestParam String name, @RequestParam String email) {
 	
 		ContactEntity contact = new ContactEntity();
